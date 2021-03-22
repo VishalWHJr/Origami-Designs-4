@@ -1,0 +1,96 @@
+.header{
+    background-color: rgb(32, 201, 97);
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 40px;
+
+}
+.description{
+    background-color: rgb(33, 127, 221);
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    border-radius: 40px;
+
+}
+.instructions{
+    font-size: 25px;
+    background-color: rgb(202, 50, 50);
+    padding-left:90px;
+    border-radius: 40px;
+}
+.about{
+    display:flex;
+    justify-content: flex-end;
+}
+.steps{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    background-color: #000000;
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+    color:whitesmoke;
+    border-radius:160px;
+    background-color: grey;
+    margin-bottom:40px;
+    padding-bottom:30px;
+    /* padding-top:30px */
+}
+.grid{
+    background-color:whitesmoke;
+    height:510px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 40px;
+}
+.item{
+    border-radius: 10px;
+    background-color:#ffffff;
+    padding:30px;
+    margin:25px;
+    width:310px;
+    height:500px;  
+    font-family:sans-serif;
+}
+.item{
+    position:relative
+
+}
+.item p{
+    position:absolute;
+    color:white;
+    transform:translate(-50%,-50%);
+    top:20%;
+    left:50%;
+    opacity:0;
+}
+.item:hover p{
+    opacity:1
+}
+.item:hover img{
+    opacity:0.33;
+}
+body{
+    margin:0px;
+    background-color:#f7f2f2;
+}
+.item:hover{
+    transform:scale(1.2);
+}
+.instructions{
+    border-radius:200px;
+    background-color: turquoise;
+}
+
+.grid p{
+    color:black;
+    font-size:30px;
+    font-family: sans-serif;
+    stroke: black;
+}
+
